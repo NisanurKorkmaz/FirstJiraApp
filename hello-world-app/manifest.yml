@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: hello-world-app-hello-world-panel
+      function: main
+      title: Forge app for Nisanur
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/bf17b31d-0cda-4454-818a-9e1b2419bdd5
+permissions:
+  scopes:
+    - read:jira-work

@@ -32,7 +32,7 @@ const App = () => {
           Number of comments on this issue: {comments.length}
         </Text>
         <Text>
-          Owner of the last comment: {lastComment.created}
+          Date and time of the last comment: {lastComment.created}
         </Text>
         <Tooltip text={"Detail Panel"}>
           <Text>Owner of the last comment: {lastComment.author.displayName}</Text>
